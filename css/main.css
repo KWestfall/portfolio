@@ -97,6 +97,145 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*****Universal Styles*****/
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+h2 {
+font-size: 1.85em;
+}
+h3 {
+font-size: 1.5em;
+}
+
+p {
+font-size: 1.1em;
+}
+ul,
+ol {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+a {
+text-decoration: none;
+color: inherit;
+}
+a:visited {
+  color: inherit;
+}
+img {
+width: 100%;
+}
+figure {
+margin: 0;
+}
+address {
+font-style: normal;
+}
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+/*****Base Header+Footer*****/
+header,
+footer {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+header {
+  padding: 10px 0;
+}
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  text-transform: uppercase;
+  width: 80%;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+footer {
+text-align: center;
+ flex-direction: column;
+
+}
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .social-icons p i  {
+  color: #bdbf09;
+  font-size: 2.5em;
+  padding: 0 35px;
+}
+
+footer .copyright {
+margin: 20px 0;
+
+}
+
+
+
+/*****Hero*****/
+ .hero-area {
+  border: solid 1px blue;
+}
+/*****About*****/
+.about {
+  border: solid 1px red;
+}
+/*****Samples*****/
+.samples {
+  border: solid 1px green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
@@ -263,4 +402,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
